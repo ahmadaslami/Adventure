@@ -94,23 +94,7 @@
         <p> Kabul, Aghanistan | Phone: 0798-999-999| Email: ahmad@gmail.com</p>
     </section>
 
-    <script>
-        const mobileNav = document.querySelector('.mobile-nav')
-        const menuBtn = document.querySelector('.menu-btn')
-        const navlinks = document.querySelector('.nav-links')
-        const closeBtn = document.querySelector('.close-btn')
 
-        mobileNav.addEventListener('click', (e) => {
-            navlinks.classList.toggle('mobile-menu')
-            if (e.target === menuBtn) {
-                menuBtn.replaceWith(closeBtn)
-                closeBtn.style.display = 'block'
-            }
-            if (e.target === closeBtn) {
-                closeBtn.replaceWith(menuBtn)
-            }
-        })
-    </script>
 </body>
 
 </html>
